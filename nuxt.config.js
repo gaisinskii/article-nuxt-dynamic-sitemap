@@ -12,6 +12,9 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
+  router: {
+    base: '/artcile-nuxt-dynamic-sitemap/'
+  },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
@@ -42,10 +45,7 @@ export default {
   sitemap: {
     hostname: 'https://my-host.com',
     gzip: true,
-    exclude: [
-      '/exclude-one',
-      '/exclude-two'
-    ],
+    exclude: ['/exclude-one', '/exclude-two'],
     defaults: {
       changefreq: 'daily',
       priority: 1,
