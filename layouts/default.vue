@@ -12,7 +12,7 @@
         </nuxt-link>
         <nuxt-link
           class="the-header__link"
-          :to="{name: 'all-users'}"
+          :to="{name: 'users'}"
         >
           <el-button plain>
             All Users
@@ -20,7 +20,7 @@
         </nuxt-link>
         <nuxt-link
           class="the-header__link"
-          :to="{name: 'all-albums'}"
+          :to="{name: 'albums'}"
         >
           <el-button plain>
             All Albums
@@ -28,7 +28,7 @@
         </nuxt-link>
         <nuxt-link
           class="the-header__link"
-          :to="{name: 'all-todos'}"
+          :to="{name: 'todos'}"
         >
           <el-button plain>
             All Todos

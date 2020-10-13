@@ -1,45 +1,7 @@
 <template>
   <el-container>
     <el-main>
-      <el-table
-        border
-        :data="users.slice(0, 4)"
-      >
-        <el-table-column
-          prop="id"
-          label="ID"
-        />
-        <el-table-column
-          prop="name"
-          label="User Name"
-        />
-        <el-table-column
-          prop="username"
-          label="User Alias"
-        />
-        <el-table-column
-          prop="id"
-          label="Edit"
-        >
-          <template slot-scope="scope">
-            <nuxt-link
-              class="page__link"
-              :to="{
-                name: 'edit-id',
-                params: {
-                  id: scope.row.id
-                }
-              }"
-            >
-              <el-button
-                type="primary"
-                icon="el-icon-edit"
-                circle
-              />
-            </nuxt-link>
-          </template>
-        </el-table-column>
-      </el-table>
+      This is the main page. Navigate through the site using links above.
     </el-main>
   </el-container>
 </template>
