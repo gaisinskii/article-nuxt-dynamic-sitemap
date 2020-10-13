@@ -1,5 +1,8 @@
 # artcile-nuxt-dynamic-sitemap
 
+## Live preview - https://andynoir.github.io/article-nuxt-dynamic-sitemap/
+## Article - https://dev.to/andynoir/sitemap-for-dynamic-routes-in-nuxtjs-4b96
+
 ## Build Setup
 
 ```bash
