@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/exclude-one", {data:[{}],fetch:[],mutations:void 0});
